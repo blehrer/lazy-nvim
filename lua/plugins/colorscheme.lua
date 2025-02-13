@@ -3,10 +3,11 @@ return {
   { "neanias/everforest-nvim" },
   { "rebelot/kanagawa.nvim" },
   { "catppuccin/nvim" },
+  { "rose-pine/neovim", name = "rose-pine" },
   {
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "kanagawa",
+      colorscheme = "rose-pine",
     },
   },
 }
