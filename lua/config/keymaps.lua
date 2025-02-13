@@ -66,5 +66,6 @@ vim.keymap.set("n", "<F18>", ":lua RenameFile()<cr>", { desc = "Rename file" })
 vim.keymap.set("n", "<leader>l", ":Lazy<cr>", { desc = "[L]azy plugin manager" })
 vim.cmd.cabbrev("w!!", 'w !SUDO_ASKPASS="/usr/bin/pass $USER" sudo --askpass tee % > /dev/null')
 vim.keymap.set("n", "-", ":Oil<cr>", { desc = "Edit directory with oil.nvim" })
+vim.keymap.set("n", "\\", ":lua require('snacks').explorer()<cr>", { desc = "Toggle the file explorer" })
 
 -- vim: ts=2 sts=2 sw=2 et
